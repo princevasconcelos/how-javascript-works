@@ -8,6 +8,7 @@
 - https://createapp.dev/parcel
 - https://tcorral.github.io/javascript-challenges-book/
 - https://github.com/princevasconcelos/33-js-concepts
+- https://eloquentjavascript.net/ (Book)
 
 #### 1. var vs let vs const
 
