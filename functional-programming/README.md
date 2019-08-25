@@ -1,6 +1,7 @@
 # Functional Programming
 
 - https://github.com/princevasconcelos/mostly-adequate-guide (Book)
+- https://github.com/princevasconcelos/Functional-Light-JS (Book)
 
 ### What is a Functional Programming?
 - Its a programming paradigm
