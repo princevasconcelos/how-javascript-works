@@ -1,5 +1,7 @@
 # Functional Programming
 
+- https://github.com/princevasconcelos/mostly-adequate-guide (Book)
+
 ### What is a Functional Programming?
 - Its a programming paradigm
 - Its a style of coding
