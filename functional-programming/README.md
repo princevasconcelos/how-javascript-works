@@ -1,5 +1,4 @@
-# fpbk
-to @princevasconcelos
+# Functional Programming
 
 ### What is a Functional Programming?
 - Its a programming paradigm
