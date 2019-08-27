@@ -12,6 +12,60 @@
 - https://github.com/javascript-society/javascript-path (Link to books)
 - https://devdocs.io/javascript-webassembly/
 
+## Historiy
+
+Created by Brendan Eich on May 1965.
+Javascript is based on: Self(Object Oriented) and Schema(Functional)
+
+## Caracteristicas
+
+- Week types
+- Pure functions: functions that dont have side effects, functions deterministic
+- First class functions: functions that can receive other functions and return functions. Functions are objects,
+so can be assigned to a variable
+
+## Links
+
+- https://javascriptweblog.wordpress.com/ (by Angus Croll)
+- http://fitzgeraldnick.com/ (by Nick Fitzgerald)
+- http://www.adequatelygood.com/ (by Ben Cherry)
+
+## Function Declaration
+
+```js
+function foo() {
+  return 3;
+}
+
+foo() //3
+foo //function
+```
+
+- full hoisted
+- must have a name
+- function name is avaliable inside the function and the parent scope
+
+## Function Expression
+
+```js
+const foo = function bar() {
+  return 4;
+}
+```
+- partial hoisted
+- can be anonymous or named
+- function name is not visible outsite function scope
+
+Extra:
+- Look like more an object than a expression
+- Function Expressions and Functional Programming are inseparable
+- Best practive: always use named function expression (NFE) to avoid debugging problems
+
+## Hoist
+
+Function declarations and function variables are always moved (‘hoisted’) to the top of their JavaScript scope by the JavaScript interpreter (http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
+
+
 #### 1. var vs let vs const
 
 <details><summary><b>Resposta</b></summary>
