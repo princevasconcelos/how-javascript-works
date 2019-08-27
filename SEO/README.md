@@ -1,0 +1,1 @@
+- https://dev.to/pagely/seo-cheat-sheet-for-devs-5h1g
