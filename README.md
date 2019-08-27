@@ -61,6 +61,55 @@ Extra:
 - Function Expressions and Functional Programming are inseparable
 - Best practive: always use named function expression (NFE) to avoid debugging problems
 
+## A expression produces a value
+
+If you can print it, or assign it to a variable, it’s an expression
+
+```js
+2 + 2
+3 * 7
+1 + 2 + 3 * (8 ** 9) - sqrt(4.0)
+min(2, 22)
+max(3, 94)
+round(81.5)
+"foo"
+"bar"
+"foo" + "bar"
+None
+True
+False
+2
+3
+4.0
+```
+
+## A statement perform an action
+
+They are syntactic elements that serve a purpose, but do not themselves have any intrinsic “value”
+
+```js
+if CONDITION:
+elif CONDITION:
+else:
+for VARIABLE in SEQUENCE:
+while CONDITION:
+try:
+except EXCEPTION as e:
+class MYCLASS:
+def MYFUNCTION():
+return SOMETHING
+raise SOMETHING
+with SOMETHING:
+```
+
+DOEST WORK
+```js
+x = if CONDITION:
+y = while CONDITION:
+z = return 42
+foo = for i in range(10):
+```
+
 ## Hoist
 
 Function declarations and function variables are always moved (‘hoisted’) to the top of their JavaScript scope by the JavaScript interpreter (http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
