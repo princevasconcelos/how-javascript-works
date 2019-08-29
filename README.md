@@ -12,6 +12,8 @@
 - https://github.com/javascript-society/javascript-path (Link to books)
 - https://devdocs.io/javascript-webassembly/
 
+- https://github.com/thedaviddias/Front-End-Checklist (NEXT TO READ)
+
 ## Historiy
 
 Created by Brendan Eich on May 1965.
